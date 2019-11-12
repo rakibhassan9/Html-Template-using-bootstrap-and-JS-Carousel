@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css?family=Lato:400,700');
+@import url('https://fonts.maateen.me/kalpurush/font.css');
+body{
+
+	overflow-x: hidden;
+	font-family: 'Red Hat Display', sans-serif;
+	color: #505962
+}
+
+.image_ss{
+	
+   height: 100vh;
+   min-height: 350px;
+   background: no-repeat center center scroll;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+	}
+
+.header_area{
+
+	padding: 1rem 0rem 1rem 0rem;
+}
+
+.header logo{
+	
+}
+
+.img-class
+{
+	display: inline-block;
+	margin-left: 25%;
+}
+.header logo img{
+	width: 100%;
+}
+
+.nav-menu{
+
+	width:100%;
+	
+}
+
+.nav-menu ul {
+
+	list-style:none;
+	position: relative;
+	margin-right: 2rem;
+	
+}
+.nav-menu ul li{
+	float:right;
+	padding-right:1rem;
+	
+}
+.nav-menu ul li a{
+	font-size: .8rem;
+	color:black;
+	text-decoration: none;
+	padding: 0.4rem 2rem .4rem 2rem;
+	
+}
+.active, .nav-menu ul li a:hover{
+	
+	color: white !important;
+	background-color: black;
+	border-radius: 3rem;
+	
+}
+
+/* -- Slider --*/
+.carousel-item{
+	height: 100vh;
+}
+
+.carousel-indicators li {
+	border-radius: 12px;
+	width: 12px;
+	height: 12px;
+	background-color: #404040;
+ }
+
+.carousel-caption{
+
+    position: absolute;
+    top: 38%;
+	text-transform: uppercase;
+	width: 100%;
+	right: 0;
+	left: 0;
+}
+.carousel-caption h1{
+
+    font-size: 3.8rem;
+    font-weight: 700;
+    letter-spacing: 0.3rem;
+    text-shadow: .1rem .1rem .8rem black;
+    padding-bottom: 1rem;
+}
+.carousel-caption h3{
+
+    font-size: 2rem;
+    text-shadow: .1rem .1rem .5rem black;
+    padding-bottom: 1.6rem;
+}
+.btn-lg{
+	border-width: medium;
+	border-radius: 0;
+	font-size: 1.1rem;
+}
+
+/*===========.= BOOTSTRAP BREAK POINTS:
+
+Extra small (xs) devices (portrait phones, less than 576px)
+No media query since this is the default in Bootstrap
+
+Small (sm) devices (landscape phones, 576px and up)
+@media (min-width: 576px) { ... }
+
+Medium (md) devices (tablets, 768px and up)
+@media (min-width: 768px) { ... }
+
+Large (lg) devices (desktops, 992px and up)
+@media (min-width: 992px) { ... }
+
+Extra (xl) large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) { ... }
+
+=============*/
